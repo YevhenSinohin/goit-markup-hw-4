@@ -176,7 +176,8 @@ body {
                                 rgba(47, 48, 58, 0.4)),
                         url(../img/img-bg.jpg);
         background-repeat: no-repeat;  
-        justify-content: center;              
+        background-position: 50% 50%;
+                  
        
 }
 .hero-title {
@@ -369,7 +370,7 @@ body {
      
 }
 .social-link:hover .social-icon,
-.social-link:focus.social-icon {
+.social-link:focus .social-icon {
        fill: var(--second-color);
       
 }
@@ -486,7 +487,7 @@ body {
 }
 
 .footer-social {
-        padding-top: 8px;
+        padding-top: 12px;
 }
 
 .footer-item {
@@ -550,10 +551,9 @@ body {
 }
 .main-list {
         display: flex;
-        padding-top: 94px;
         margin-bottom: 50px;
         justify-content: center;
-        border: none;
+      
        
 }
 .main-services:not(first-child) {
